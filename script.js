@@ -76,6 +76,8 @@ function showMessage(response) {
     yesMessage.style.display = "block";
     yesMessage.style.fontStyle = "normal";
     document.getElementsByClassName("image")[0].src = "images/dance.gif";
+    document.getElementById("spotify-text").style.display = "block";
+    document.getElementById("spotify-code").style.display = "block";
 
     // Remove the "Yes" button
     document.getElementById("yesButton").remove();
